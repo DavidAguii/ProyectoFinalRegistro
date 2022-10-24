@@ -1,0 +1,51 @@
+h1 {
+  size: 85%;
+  margin-top: 2rem;
+  font-size: 2.5rem;
+  color: white;
+}
+h4 {
+  size: 100%;
+  margin-top: 2rem;
+  font-size: 2rem;
+  color: white;
+}
+
+body {
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)),
+    url(imagenasu.jpg) no-repeat center center fixed;
+  text-align: center;
+  background-position: bottom;
+  background-size: cover;
+  overflow: hidden;
+  height: 80vh;
+}
+span {
+  display: inline-block;
+  width: 290px;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 110%;
+  margin-top: 10px;
+}
+
+section {
+  background: linear-gradient(rgba(60, 78, 124, 0.75), rgba(5, 7, 12, 0.75))
+    no-repeat center center fixed;
+  width: 32%;
+  height: 52%;
+  position: relative;
+  left: 34%;
+}
+#button {
+  margin-top: 10px;
+  background-color: #44c767;
+  border-radius: 28px;
+  border: 1px solid #18ab29;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 13px;
+  padding: 16px 31px;
+}

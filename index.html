@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registro Civil Paraguayo</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <h1>Registro civil</h1>
+    <h4>Registro de certificado del acta de nacimiento</h4>
+    <section class="inputs">
+      <div>
+        <span>Nombre y apellido</span><input type="text" id="name" required />
+      </div>
+
+      <div>
+        <span>Nombre y apellido del padre</span
+        ><input id="namefather" type="text" required />
+      </div>
+
+      <div>
+        <span>Nombre y apellido de la madre</span
+        ><input id="namemother" type="text" required />
+      </div>
+
+      <span>Sexo</span>
+      <select id="seleccionSexo">
+        <option value="Masculino">Masculino</option>
+        <option value="Femenino">Femenino</option>
+      </select>
+
+      <div>
+        <span>Lugar de nacimiento</span
+        ><input id="lugar" type="text" required />
+      </div>
+
+      <div>
+        <span>Fecha de nacimiento</span
+        ><input id="fecha" type="text" required />
+      </div>
+
+      <div>
+        <span> Persona que declaro el nacimiento</span
+        ><input id="personaDeclaro" type="text" required />
+      </div>
+      <div id="button" class="button" onclick="registrarDatosCivil()">
+        Registrar datos
+      </div>
+    </section>
+  </body>
+</html>
